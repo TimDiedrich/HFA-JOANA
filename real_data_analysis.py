@@ -715,7 +715,7 @@ def main():
     
     """
     extracted analysis for dataset GSE24739_G0
-    """
+    
 
     asMatrix, kegg, malKegg, qValuesGeneId, joanaOutput, joanaQValues, terms, res_padog = loadAllFiles()
     
@@ -736,7 +736,7 @@ def main():
     ActiveOverlap(overlapMatrix, j, p, "square", "diamond", terms, malKegg, "JOANAandPADOG")
     ActiveOverlap(overlapMatrix, j, s, "square", "triangle-up", terms, malKegg, "JOANAandFisher")
     ActiveOverlap(overlapMatrix, p, s, "diamond", "triangle-up", terms, malKegg, "PADOGandFisher")
-    """
+    
     """
     
     analyzeDatasets()
